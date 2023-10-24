@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC's</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <h4>
+        Welcome to the Interactive ABCs of CSS Technology learning Website
+      </h4>
+    </div>
+    <div class="secondText">
+      <h4>
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the corresponding letters
+      </h4>
+    </div>
+
+    <div class="letters">
+      <div class="A">
+        <img class="imageA" src="./images/css-letter-a.png" alt="" />
+        <input type="button" class="hideA" value="Hide A" onclick="hideA()" />
+      </div>
+      <div class="B">
+        <img class="imageB" src="./images/css-letter-b.png" alt="" />
+        <input type="button" class="hideB" value="Hide B" onclick="hideB()" />
+      </div>
+      <div class="C">
+        <img class="imageC" src="./images/css-letter-c.png" alt="" />
+        <input type="button" class="hideC" value="Hide C" onclick="hideC()" />
+      </div>
+    </div>
+
+    <div class="bottons">
+      <input type="button" class="btnA" value="A" onclick="showA()" />
+      <input type="button" class="btnB" value="B" onclick="showB()" />
+      <input type="button" class="btnC" value="C" onclick="showC()" />
+    </div>
+  </body>
+</html>

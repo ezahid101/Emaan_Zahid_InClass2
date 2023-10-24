@@ -1,0 +1,148 @@
+body {
+  justify-content: center;
+  align-items: center;
+  margin: none;
+}
+
+.header {
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #fdc80b;
+}
+
+.secondText {
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #fdc80b;
+  margin-bottom: 5px;
+}
+
+.letters {
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.A {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageA {
+  display: flex;
+  visibility: hidden;
+}
+
+.hideA {
+  display: flex;
+  width: 27.5vw;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border: none;
+  outline-style: solid;
+  outline-color: #fdc80b;
+  color: white;
+  background-color: rgb(145, 220, 245);
+  visibility: hidden;
+}
+
+.B {
+  display: block;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.imageB {
+  display: flex;
+  visibility: hidden;
+}
+
+.hideB {
+  display: flex;
+  width: 27.5vw;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border: none;
+  outline-style: solid;
+  outline-color: #fdc80b;
+  color: white;
+  background-color: rgb(145, 220, 245);
+  visibility: hidden;
+}
+
+.C {
+  display: block;
+}
+
+.imageC {
+  display: flex;
+  visibility: hidden;
+}
+
+.hideC {
+  display: flex;
+  width: 27.5vw;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline-style: solid;
+  outline-color: #fdc80b;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgb(145, 220, 245);
+  visibility: hidden;
+}
+
+.bottons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnA {
+  display: flex;
+  width: 15vw;
+  height: 8vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border: none;
+  outline-style: solid;
+  outline-color: #fdc80b;
+  background-color: #fff;
+}
+
+.btnB {
+  display: flex;
+  width: 15vw;
+  height: 8vh;
+  margin-left: 18vw;
+  margin-right: 18vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border: none;
+  outline-style: solid;
+  outline-color: #fdc80b;
+  background-color: #fff;
+}
+
+.btnC {
+  display: flex;
+  width: 15vw;
+  height: 8vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border: none;
+  outline-style: solid;
+  outline-color: #fdc80b;
+  background-color: #fff;
+}
